@@ -1,16 +1,16 @@
 {
-  "last_update": "2026-11-25T14:04:23.037886Z",
-  "total_servers": 46,
+  "last_update": "2026-11-25T14:58:20.278811Z",
+  "total_servers": 49,
   "categories": {
-    "jammers": 1,
-    "lte": 40,
+    "jammers": 2,
+    "lte": 42,
     "wifi": 5
   },
   "countries": {
-    "XX": 46
+    "XX": 49
   },
   "providers": {
-    "Unknown": 46
+    "Unknown": 49
   },
   "subscription_urls": {
     "raw": "https://raw.githubusercontent.com/nikitazsaw/gradvvf/main/sub.txt",
