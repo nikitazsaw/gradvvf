@@ -1,0 +1,20 @@
+{
+  "last_update": "2026-11-25T14:04:23.037886Z",
+  "total_servers": 46,
+  "categories": {
+    "jammers": 1,
+    "lte": 40,
+    "wifi": 5
+  },
+  "countries": {
+    "XX": 46
+  },
+  "providers": {
+    "Unknown": 46
+  },
+  "subscription_urls": {
+    "raw": "https://raw.githubusercontent.com/nikitazsaw/gradvvf/main/sub.txt",
+    "pages": "https://nikitazsaw.github.io/gradvvf/sub.txt",
+    "jsdelivr": "https://cdn.jsdelivr.net/gh/nikitazsaw/gradvvf/sub.txt"
+  }
+}

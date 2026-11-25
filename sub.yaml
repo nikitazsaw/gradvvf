@@ -1,0 +1,669 @@
+proxies:
+- name: 🛡 Глушилки | 🇨🇦 XX | grpc + reality | 3487ms
+  type: vless
+  server: 212.193.0.117
+  port: 443
+  uuid: 04fa9389-a230-4f62-bcdb-3bfe240a62b2
+  flow: xtls-rprx-vision
+  network: grpc
+  tls: true
+  servername: dl.google.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 2708ms
+  type: vless
+  server: 129.101.106.233
+  port: 8443
+  uuid: c53ea5e9-ed8b-4990-805d-7f1d6451426c
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: durov.sky-vault.top
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | reality | 2914ms
+  type: vless
+  server: 188.225.32.252
+  port: 443
+  uuid: d3d4e690-db61-4b84-8687-7c1ff79c89ff
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: contract.starsov.pro
+  skip-cert-verify: true
+  client-fingerprint: edge
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 3052ms
+  type: vless
+  server: 195.209.209.64
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: ruhsds744.gangtype.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | reality | 3132ms
+  type: vless
+  server: 141.8.198.29
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: rusbox634.grizpliz.am
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 3206ms
+  type: vless
+  server: 154.17.6.182
+  port: 8443
+  uuid: aff1b196-478c-425a-9403-7ea15d9aafdf
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: hkg.kkp.us.ci
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /487e07e6-2930-4e71-99b3-6792e5909f16
+    headers:
+      Host: hkg.kkp.us.ci
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 3348ms
+  type: vless
+  server: 154.26.190.226
+  port: 8443
+  uuid: aff1b196-478c-425a-9403-7ea15d9aafdf
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: hkg.kkp.us.ci
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /487e07e6-2930-4e71-99b3-6792e5909f16
+    headers:
+      Host: hkg.kkp.us.ci
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 3932ms
+  type: vless
+  server: hkg.kkp.us.ci
+  port: 443
+  uuid: aff1b196-478c-425a-9403-7ea15d9aafdf
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: hkg.kkp.us.ci
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /487e07e6-2930-4e71-99b3-6792e5909f16
+    headers:
+      Host: hkg.kkp.us.ci
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 3280ms
+  type: vless
+  server: 195.209.217.220
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: ruhsds738.gangtype.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 3623ms
+  type: vless
+  server: 103.30.77.94
+  port: 8443
+  uuid: aff1b196-478c-425a-9403-7ea15d9aafdf
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: hkg.kkp.us.ci
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /487e07e6-2930-4e71-99b3-6792e5909f16
+    headers:
+      Host: hkg.kkp.us.ci
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 3418ms
+  type: vless
+  server: 131.143.180.19
+  port: 443
+  uuid: aff1b196-478c-425a-9403-7ea15d9aafdf
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: hkg.kkp.us.ci
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /487e07e6-2930-4e71-99b3-6792e5909f16
+    headers:
+      Host: hkg.kkp.us.ci
+- name: 📶 LTE | 🇨🇦 XX | grpc + tls | 3488ms
+  type: vless
+  server: 172.64.80.1
+  port: 443
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  flow: xtls-rprx-vision
+  network: grpc
+  tls: true
+  servername: sync.2ml.bid
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: v3-direct
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 431ms
+  type: vless
+  server: 50.7.154.78
+  port: 443
+  uuid: 51f9e479-d3c8-49e6-b5e5-3d319aebda40
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: api.mediasvyaz.cc
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | xhttp + reality | 568ms
+  type: vless
+  server: 217.60.30.70
+  port: 8443
+  uuid: 80b3cf20-c77c-4fb9-a69e-55c9dadd58c8
+  flow: xtls-rprx-vision
+  network: xhttp
+  tls: true
+  servername: jurnal.primetap.pro
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 636ms
+  type: vless
+  server: 189.74.116.41
+  port: 443
+  uuid: 51f9e479-d3c8-49e6-b5e5-3d319aebda40
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: api.oblachnyservis.cc
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 774ms
+  type: vless
+  server: 31.43.179.0
+  port: 443
+  uuid: 5b20b66b-5e7e-4c00-a3b0-ce5de8611c4d
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: worker3.simax49258.workers.dev
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /6q9UJmS2CckAEFb1?ed=2560
+    headers:
+      Host: worker3.simax49258.workers.dev
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 704ms
+  type: vless
+  server: 45.135.235.255
+  port: 443
+  uuid: d4079b66-b186-4725-b399-97a2ca46ed8f
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: worker3.vefibe8662.workers.dev
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /HGCmKaXbRNqpZqMv
+    headers:
+      Host: worker3.vefibe8662.workers.dev
+- name: 📶 LTE | 🇨🇦 XX | reality | 292ms
+  type: vless
+  server: 109.73.207.225
+  port: 443
+  uuid: ef1da56e-8117-03eb-bcd8-9094ebbdf985
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: games.robloxfans.fun
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 3721ms
+  type: vless
+  server: api.14887277.xyz
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: trx.tools
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /session
+    headers:
+      Host: trx.tools
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 843ms
+  type: vless
+  server: 154.197.64.252
+  port: 443
+  uuid: d9ce74bb-c0da-4865-80d3-32fedb7e2829
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: worker3.mepepek404.workers.dev
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /NxEvrDKOG7eWhZ20
+    headers:
+      Host: worker3.mepepek404.workers.dev
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 996ms
+  type: vless
+  server: 31.57.225.5
+  port: 443
+  uuid: 2a446e74-fd92-4917-aa71-f4d54721cf24
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: action.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | xhttp + reality | 3792ms
+  type: vless
+  server: jurnal.primetap.pro
+  port: 8443
+  uuid: 80b3cf20-c77c-4fb9-a69e-55c9dadd58c8
+  flow: xtls-rprx-vision
+  network: xhttp
+  tls: true
+  servername: jurnal.primetap.pro
+  skip-cert-verify: true
+  client-fingerprint: qq
+- name: 📶 LTE | 🇨🇦 XX | xhttp + tls | 1243ms
+  type: vless
+  server: 72.56.69.70
+  port: 443
+  uuid: 00799b08-1090-4ed3-bec0-0fa26816a703
+  flow: xtls-rprx-vision
+  network: xhttp
+  tls: true
+  servername: plaksa.bootless.ru
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | reality | 1314ms
+  type: vless
+  server: 84.54.44.117
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: rumicro642.richhoodfoc.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 1173ms
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: 80b3cf20-c77c-4fb9-a69e-55c9dadd58c8
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: unlik.club
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  ws-opts:
+    path: /player/collect/9c8514f9552d/
+    headers:
+      Host: unlik.club
+- name: 📶 LTE | 🇨🇦 XX | reality | 1600ms
+  type: vless
+  server: 45.150.37.169
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: rumicro641.richhoodfoc.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | ws + tls | 1525ms
+  type: vless
+  server: 31.177.111.72
+  port: 443
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: smartcdn.top
+  skip-cert-verify: true
+  ws-opts:
+    path: /useraction/collect/8a64b355ef0c/
+    headers:
+      Host: smartcdn.top
+- name: 📶 LTE | 🇨🇦 XX | tcp + tls | 1456ms
+  type: vless
+  server: 94.183.164.138
+  port: 443
+  uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: o9q3.cloud-kmt.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 1673ms
+  type: vless
+  server: 45.151.136.26
+  port: 443
+  uuid: 11d14aed-3d44-4bb2-b9c0-24e661589e5a
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: ch09.tunnely.space
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 3862ms
+  type: vless
+  server: play.3apes.pro
+  port: 443
+  uuid: 80b3cf20-c77c-4fb9-a69e-55c9dadd58c8
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: play.3apes.pro
+  skip-cert-verify: true
+  client-fingerprint: chrome
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 1938ms
+  type: vless
+  server: 94.183.167.153
+  port: 443
+  uuid: 80b3cf20-c77c-4fb9-a69e-55c9dadd58c8
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: play.3apes.pro
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | xhttp + reality | 1861ms
+  type: vless
+  server: 87.120.106.95
+  port: 443
+  uuid: 3c1067c5-dda9-4c3d-83fb-4eb1eba40224
+  flow: xtls-rprx-vision
+  network: xhttp
+  tls: true
+  servername: www.gr-cdn.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 1778ms
+  type: vless
+  server: 87.120.252.67
+  port: 443
+  uuid: 80e949d8-a503-4f6f-a26f-b80bfec9cd33
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: rss.worldoftanks.asia
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 2080ms
+  type: vless
+  server: 2.56.172.199
+  port: 443
+  uuid: c046d6a3-14c7-4297-9675-f8d101aa1979
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: dl-cdn.alpinelinux.org
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + tls | 2158ms
+  type: vless
+  server: 43.155.175.232
+  port: 443
+  uuid: 9a600801-e889-4705-9adb-bf9aeb366fc7
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: ifdmbpb.kdns.fr
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | raw + reality | 4001ms
+  type: vless
+  server: us.memepn.com
+  port: 443
+  uuid: f69e272f-e0e5-4e9d-b180-5be63930cde9
+  flow: xtls-rprx-vision
+  network: raw
+  tls: true
+  servername: us.memepn.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 2571ms
+  type: vless
+  server: edge08.tunnely.space
+  port: 443
+  uuid: 11d14aed-3d44-4bb2-b9c0-24e661589e5a
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: ch09.tunnely.space
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | reality | 2226ms
+  type: vless
+  server: 147.45.97.194
+  port: 443
+  uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: skvoz-dpi.com
+  skip-cert-verify: true
+  client-fingerprint: qq
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 2503ms
+  type: vless
+  server: 143.246.215.19
+  port: 443
+  uuid: f69e272f-e0e5-4e9d-b180-5be63930cde9
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: us.memepn.com
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 2639ms
+  type: vless
+  server: 138.249.210.11
+  port: 443
+  uuid: 148917bd-0b37-42b8-98f4-aa94ca73e75a
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: travel.yandex.ru
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📶 LTE | 🇨🇦 XX | tcp + reality | 2295ms
+  type: vless
+  server: 31.59.156.16
+  port: 443
+  uuid: 80b3cf20-c77c-4fb9-a69e-55c9dadd58c8
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: broe.primetap.cards
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📡 WIFI | 🇨🇦 XX | xhttp + tls | 363ms
+  type: vless
+  server: 78.159.240.111
+  port: 2053
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  flow: xtls-rprx-vision
+  network: xhttp
+  tls: true
+  servername: curlypebble.com
+  skip-cert-verify: true
+- name: 📡 WIFI | 🇨🇦 XX | reality | 500ms
+  type: vless
+  server: 158.160.252.53
+  port: 9096
+  uuid: 483c6187-3c8d-436b-8413-536c2c87b70c
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: finversia.ru
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📡 WIFI | 🇨🇦 XX | xhttp + tls | 917ms
+  type: vless
+  server: 78.159.240.62
+  port: 2053
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  flow: xtls-rprx-vision
+  network: xhttp
+  tls: true
+  servername: polarladder.com
+  skip-cert-verify: true
+- name: 📡 WIFI | 🇨🇦 XX | tcp + reality | 1386ms
+  type: vless
+  server: 83.141.72.179
+  port: 24441
+  uuid: ef1da56e-8117-03eb-bcd8-9094ebbdf985
+  flow: xtls-rprx-vision
+  network: tcp
+  tls: true
+  servername: events.robloxfans.fun
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 📡 WIFI | 🇨🇦 XX | ws + tls | 2008ms
+  type: vless
+  server: 37.202.231.38
+  port: 5252
+  uuid: 2a446e74-fd92-4917-aa71-f4d54721cf24
+  flow: xtls-rprx-vision
+  network: ws
+  tls: true
+  servername: dpt.codmaxx.ir
+  skip-cert-verify: true
+  client-fingerprint: firefox
+  ws-opts:
+    path: /video
+    headers:
+      Host: dpt.codmaxx.ir
+proxy-groups:
+- name: 🛡 Глушилки
+  type: select
+  proxies:
+  - 🛡 Глушилки | 🇨🇦 XX | grpc + reality | 3487ms
+- name: 📶 LTE
+  type: select
+  proxies:
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2708ms
+  - 📶 LTE | 🇨🇦 XX | reality | 2914ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 3052ms
+  - 📶 LTE | 🇨🇦 XX | reality | 3132ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3206ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3348ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3932ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 3280ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3623ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3418ms
+  - 📶 LTE | 🇨🇦 XX | grpc + tls | 3488ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 431ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + reality | 568ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 636ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 774ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 704ms
+  - 📶 LTE | 🇨🇦 XX | reality | 292ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3721ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 843ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 996ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + reality | 3792ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + tls | 1243ms
+  - 📶 LTE | 🇨🇦 XX | reality | 1314ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 1173ms
+  - 📶 LTE | 🇨🇦 XX | reality | 1600ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 1525ms
+  - 📶 LTE | 🇨🇦 XX | tcp + tls | 1456ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 1673ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 3862ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 1938ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + reality | 1861ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 1778ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2080ms
+  - 📶 LTE | 🇨🇦 XX | tcp + tls | 2158ms
+  - 📶 LTE | 🇨🇦 XX | raw + reality | 4001ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2571ms
+  - 📶 LTE | 🇨🇦 XX | reality | 2226ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2503ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2639ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2295ms
+- name: 📡 WIFI
+  type: select
+  proxies:
+  - 📡 WIFI | 🇨🇦 XX | xhttp + tls | 363ms
+  - 📡 WIFI | 🇨🇦 XX | reality | 500ms
+  - 📡 WIFI | 🇨🇦 XX | xhttp + tls | 917ms
+  - 📡 WIFI | 🇨🇦 XX | tcp + reality | 1386ms
+  - 📡 WIFI | 🇨🇦 XX | ws + tls | 2008ms
+- name: 🚀 Auto
+  type: url-test
+  proxies:
+  - 🛡 Глушилки | 🇨🇦 XX | grpc + reality | 3487ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2708ms
+  - 📶 LTE | 🇨🇦 XX | reality | 2914ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 3052ms
+  - 📶 LTE | 🇨🇦 XX | reality | 3132ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3206ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3348ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3932ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 3280ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3623ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3418ms
+  - 📶 LTE | 🇨🇦 XX | grpc + tls | 3488ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 431ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + reality | 568ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 636ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 774ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 704ms
+  - 📶 LTE | 🇨🇦 XX | reality | 292ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 3721ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 843ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 996ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + reality | 3792ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + tls | 1243ms
+  - 📶 LTE | 🇨🇦 XX | reality | 1314ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 1173ms
+  - 📶 LTE | 🇨🇦 XX | reality | 1600ms
+  - 📶 LTE | 🇨🇦 XX | ws + tls | 1525ms
+  - 📶 LTE | 🇨🇦 XX | tcp + tls | 1456ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 1673ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 3862ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 1938ms
+  - 📶 LTE | 🇨🇦 XX | xhttp + reality | 1861ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 1778ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2080ms
+  - 📶 LTE | 🇨🇦 XX | tcp + tls | 2158ms
+  - 📶 LTE | 🇨🇦 XX | raw + reality | 4001ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2571ms
+  - 📶 LTE | 🇨🇦 XX | reality | 2226ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2503ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2639ms
+  - 📶 LTE | 🇨🇦 XX | tcp + reality | 2295ms
+  - 📡 WIFI | 🇨🇦 XX | xhttp + tls | 363ms
+  - 📡 WIFI | 🇨🇦 XX | reality | 500ms
+  - 📡 WIFI | 🇨🇦 XX | xhttp + tls | 917ms
+  - 📡 WIFI | 🇨🇦 XX | tcp + reality | 1386ms
+  - 📡 WIFI | 🇨🇦 XX | ws + tls | 2008ms
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+rules:
+- MATCH,🚀 Auto
